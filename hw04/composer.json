@@ -1,0 +1,19 @@
+{
+    "name": "vendor/hw05",
+    "authors": [
+        {
+            "name": "bryloill",
+            "email": "bryloill@fit.cvut.cz"
+        }
+    ],
+    "require": {
+        "fpdf/fpdf": "^1.81",
+        "doctrine/common": "^2.11"
+    },
+    "autoload": {
+        "psr-4":
+        {
+            "App\\": "src/"
+        }
+    }
+}
